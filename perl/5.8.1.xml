@@ -26,6 +26,7 @@
         <ファイル>perldelta.pod</ファイル>
         <名前>perldelta</名前>
         <説明>perl v5.8.1 での変更点</説明>
+    </要素>
     <要素>
         <ファイル>perlthrtut.pod</ファイル>
         <名前>perlthrtut</名前>
