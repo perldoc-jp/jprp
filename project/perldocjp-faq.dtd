@@ -1,5 +1,5 @@
-<!ENTITY % Inline "a|em|strong">
-<!ENTITY % a.content "(#PCDATA|em|strong)">
+<!ENTITY % Inline "(#PCDATA|a|em|strong)*">
+<!ENTITY % a.content "(#PCDATA|em|strong)*">
 <!ENTITY % URI "CDATA">
 
 <!ELEMENT faqlist (section)+>
@@ -9,7 +9,7 @@
 <!ELEMENT faq (part)+>
 <!ELEMENT part (question,answer)+>
 <!ELEMENT question (#PCDATA)>
-<!ELEMENT answer (#PCDATA| %Inline; )+>
+<!ELEMENT answer  %Inline;>
 
 <!ELEMENT a %a.content;>
 <!ATTLIST a
