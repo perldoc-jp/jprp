@@ -8,28 +8,27 @@
   <xsl:template match="/faqlist">
     <html lang="ja">
       <head>
-        <title>perldocjp FAQ 集</title>
-        <link rel="stylesheet" href="faq.css" />
-        <link rel="stylesheet" href="index.css" />
+        <title>FAQ - Japanize Perl Resours Project</title>
+        <link rel="stylesheet" type="text/css" href="faq.css" />
+        <link rel="stylesheet" type="text/css" href="index.css" />
       </head>
       <body>
 
-        <h1>Japanize Perl Resours Project</h1>
-
         <div class="menu">
-          <a HREF="index.html">Home</a> /
-          <a HREF="joinus.html">参加するには?</a> /
-          <a HREF="joinus.html#ml">メーリングリスト</a> /
-          <a HREF="translation.html">翻訳の入手</a> /
-          <a HREF="event.html">イベント</a> /
-          <a HREF="perldocjp-faq.html">FAQ</a> /
-          <a HREF="link.html">リンク</a> /
-          <span style="background-color:#eef"><a href="http://sourceforge.jp/projects/perldocjp/">sourcefoge site</a></span>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="joinus.html">参加するには?</a>(<a href="joinus.html#ml">メーリングリスト</a>)</li>
+            <li><a href="translation.html">翻訳の入手</a></li>
+            <li><a href="event.html">イベント</a></li>
+            <li class="current">FAQ</li>
+            <li><a href="link.html">リンク</a></li>
+            <li class="sourceforge"><a href="http://sourceforge.jp/projects/perldocjp/">sourcefoge site</a></li>
+          </ul>
         </div>
 
-        <h2>perldocjp FAQ 集</h2>
+        <h1>FAQ</h1>
         <xsl:for-each select="section">  
-          <h3><xsl:value-of select="title"/></h3>
+          <h2><xsl:value-of select="title"/></h2>
           <dl>
             <xsl:for-each select="faq/part">
               <xsl:element name="dt">
@@ -38,16 +37,26 @@
                     <xsl:value-of select="@id"/>
                   </xsl:attribute>
                 </xsl:if>
+                Q. 
                 <xsl:value-of select="question"/>
               </xsl:element>
               <dd>
                 <xsl:for-each select="answer">
-                  <p><xsl:copy-of select="@*|*|text()"/></p>
+                  <p>
+                    A.
+                    <xsl:copy-of select="@*|*|text()"/>
+                  </p>
                 </xsl:for-each>
               </dd>
             </xsl:for-each>
           </dl>
         </xsl:for-each>
+
+        <div class="footer">
+          <address>
+            <a href="http://sourceforge.jp/projects/perldocjp/">Japanize Perl Resources Project</a>
+          </address>
+        </div>
       </body>
     </html>
   </xsl:template>
