@@ -16,7 +16,14 @@
           <h2><xsl:value-of select="title"/></h2>
           <dl>
             <xsl:for-each select="faq/part">
-              <dt><xsl:value-of select="question"/></dt>
+              <xsl:element name="dt">
+                <xsl:if test="@id">
+                  <xsl:attribute name="id">
+                    <xsl:value-of select="@id"/>
+                  </xsl:attribute>
+                </xsl:if>
+                <xsl:value-of select="question"/>
+              </xsl:element>
               <dd>
                 <xsl:for-each select="answer">
                   <p><xsl:copy-of select="@*|*|text()"/></p>
