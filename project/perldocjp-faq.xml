@@ -44,6 +44,11 @@
 </part>
 
 <part>
+<question>翻訳の流れはどのようになっていますか？</question>
+<answer><a href="http://freeml.com/message/perldocjp@freeml.com/0000504">翻訳の流れ</a>を参考にしてください。</answer>
+</part>
+
+<part>
 <question>文字コードは何を使えばいいですか？</question>
 <answer>EUC-JP を使ってください。</answer>
 </part>
@@ -66,6 +71,16 @@
 <part>
 <question>複数の人から同じドキュメントを登録したいという要求が発生した場合はどうすればいいですか？</question>
 <answer>持ち主と主担当間で調整して一本化してください。（主担当が交代 or 増えるのはアリ）</answer>
+</part>
+
+<part>
+<question>モジュール作成者に翻訳物の公開の是非について問い合わせるべきですか？</question>
+<answer>モジュールのライセンス次第です。Perl モジュールは Perl と同じライセンス（ Artistic License と GPL のデュアルライセンス）を適用されることが多く、それらのライセンスであれば翻訳物の公開はライセンス上許可されています。ですから、許可を得る必要はありません。ただ、翻訳したことを伝えることはやった方が望ましいです。</answer>
+</part>
+
+<part>
+<question>では、モジュール作成者に報告する際にはどのように言えばよいですか？</question>
+<answer><a href="http://freeml.com/message/perldocjp@freeml.com/0000485">Re: Kansai.pm - 3周年記念イベントまとめ</a>内に一例があります。参考にしてください。</answer>
 </part>
 
 <part>
