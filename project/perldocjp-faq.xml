@@ -108,11 +108,11 @@
 <faq>
 <part>
 <question>翻訳された文章はどこで閲覧できますか？</question>
-<answer>perldoc.jp<a href="http://perldoc.jp/">を参照するか、SourceForge JP上のCVSリポジトリ<a href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/perldocjp/">を御覧下さい。</answer>
+<answer><a href="http://perldoc.jp/">perldoc.jp</a>を参照するか、<a href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/perldocjp/">SourceForge JP上のCVSリポジトリ</a>を御覧下さい。</answer>
 </part>
 
 <question>翻訳された文章の全文検索を行いたいのですが？</question>
-<answer><a href="http://www.cpan.jp/">を御参照下さい。また、このサイトではperldocjp以外にも、翻訳された文章を既に公開している他サイトが検索対象となります。</answer>
+<answer><a href="http://www.cpan.jp/">CPAN.jp</a>を御参照下さい。また、このサイトではperldocjp以外にも、翻訳された文章を既に公開している他サイトが検索対象となります。</answer>
 </part>
 
 </faq>
