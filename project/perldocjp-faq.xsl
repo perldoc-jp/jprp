@@ -33,7 +33,7 @@
           </dl>
         </xsl:for-each>
       </body>
-      </html>
-    </xsl:template>
+    </html>
+  </xsl:template>
 </xsl:stylesheet>
 
