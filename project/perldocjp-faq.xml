@@ -128,7 +128,7 @@
 
 <part id="search_from_all_documents">
 <question>翻訳された文章の全文検索は行えますか？</question>
-<answer><a href="http://www.cpan.jp/">CPAN.jp</a>を御参照下さい。また、このサイトは、perldocjp以外に、翻訳された文章を既に公開している他サイトを検索対象としています。</answer>
+<answer><a href="http://www.cpan.jp/">CPAN.jp</a>を御参照下さい。また、このサイトは、perldocjp以外に、翻訳された文章を既に公開している他サイトも検索対象としています。</answer>
 </part>
 
 </faq>
