@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="euc-jp" ?> 
 <説明>
-  <ファイル>Inline-0.43</ファイル> 
+  <パッケージ>Inline-0.43</パッケージ> 
   <説明>Inline-0.43の日本語訳</説明> 
   <言語>ja-jp</言語> 
   <作成日>2002-06-17 23:00:00+09:00</作成日> 
@@ -12,28 +12,34 @@
   </連絡先> 
   <内容物>
     <要素>
-        <名前>Inline.pod</名前>
-        <説明>Inline</説明>
+        <ファイル>Inline.pod</ファイル>
+        <名前>Inline</名前>
+        <説明>他のプログラミング言語でPerlのサブルーチンを作成する。</説明>
     </要素>
     <要素>
-        <名前>Inline-API.pod</名前>
-        <説明>Inline-API</説明>
+        <ファイル>Inline-API.pod</ファイル>
+        <名前>Inline-API</名前>
+        <説明>Inline.pmを使って、あるプログラミング言語をPerlに結びつける方法</説明>
     </要素>
     <要素>
-        <名前>Inline-FAQ.pod</名前>
-        <説明>Inline-FAQ</説明>
+        <ファイル>Inline-FAQ.pod</ファイル>
+        <名前>Inline-FAQ</名前>
+        <説明>Inline FAQ</説明>
     </要素>
     <要素>
-        <名前>Inline-Support.pod</名前>
-        <説明>Inline-FAQ</説明>
+        <ファイル>Inline-Support.pod</ファイル>
+        <名前>Inline-Support</名前>
+        <説明>Inline.pmと関連するモジュールについてのサポート情報</説明>
     </要素>
     <要素>
-        <名前>C/C.pod</名前>
-        <説明>Inline::C</説明>
+        <ファイル>C/C.pod</ファイル>
+        <名前>Inline::C</名前>
+        <説明>CでPerlサブルーチンを作成</説明>
     </要素>
     <要素>
-        <名前>C/C-Cookbook.pod</名前>
-        <説明>Inline-C-Cookbook</説明>
+        <ファイル>C/C-Cookbook.pod</ファイル>
+        <名前>Inline-C-Cookbook</名前>
+        <説明>Inline Cの豊富な利用するためのレシピ</説明>
     </要素>
   </内容物>
 </説明>
