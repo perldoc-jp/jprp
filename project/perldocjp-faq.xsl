@@ -31,8 +31,7 @@
         <h2>インデックス</h2>
         <xsl:for-each select="section">
           <ul>
-            <li><xsl:value-of select="title" /></li>
-            <li>
+            <li><xsl:value-of select="title" />
               <ul>
                 <xsl:for-each select="faq/part">
                   <li>
