@@ -9,11 +9,27 @@
     <html lang="ja">
       <head>
         <title>perldocjp FAQ 集</title>
+        <link rel="stylesheet" href="faq.css" />
+        <link rel="stylesheet" href="index.css" />
       </head>
       <body>
-        <h1>perldocjp FAQ 集</h1>
+
+        <h1>Japanize Perl Resours Project</h1>
+
+        <div class="menu">
+          <a HREF="index.html">Home</a> /
+          <a HREF="joinus.html">参加するには?</a> /
+          <a HREF="joinus.html#ml">メーリングリスト</a> /
+          <a HREF="translation.html">翻訳の入手</a> /
+          <a HREF="event.html">イベント</a> /
+          <a HREF="perldocjp-faq.html">FAQ</a> /
+          <a HREF="link.html">リンク</a> /
+          <span style="background-color:#eef"><a href="http://sourceforge.jp/projects/perldocjp/">sourcefoge site</a></span>
+        </div>
+
+        <h2>perldocjp FAQ 集</h2>
         <xsl:for-each select="section">  
-          <h2><xsl:value-of select="title"/></h2>
+          <h3><xsl:value-of select="title"/></h3>
           <dl>
             <xsl:for-each select="faq/part">
               <xsl:element name="dt">
