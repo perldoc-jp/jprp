@@ -27,6 +27,31 @@
         </div>
 
         <h1>FAQ</h1>
+
+        <h2>インデックス</h2>
+        <xsl:for-each select="section">
+          <ul>
+            <li><xsl:value-of select="title" /></li>
+            <li>
+              <ul>
+                <xsl:for-each select="faq/part">
+                  <li>
+                    <xsl:element name="a">
+                      <xsl:if test="@id">
+                        <xsl:attribute name="href">
+                          #<xsl:value-of select="@id"/>
+                        </xsl:attribute>
+                      </xsl:if>
+                      Q. 
+                      <xsl:value-of select="question"/>
+                    </xsl:element>
+                  </li>
+                </xsl:for-each>
+              </ul>
+            </li>
+          </ul>
+        </xsl:for-each>
+
         <xsl:for-each select="section">  
           <h2><xsl:value-of select="title"/></h2>
           <dl>
