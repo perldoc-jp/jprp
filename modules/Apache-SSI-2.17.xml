@@ -11,11 +11,13 @@
     <アドレス>taniguchi@users.sourceforge.jp</アドレス>
   </連絡先> 
   <内容物>
+<!--
     <要素>
         <ファイル>SSI.pod</ファイル>
         <名前>Apache::SSI</名前>
         <説明>Perl での Server Side Includes の実行</説明>
     </要素>
+-->
     <要素>
         <ファイル>FakeSSI.pod</ファイル>
         <名前>Apache::FakeSSI</名前>
