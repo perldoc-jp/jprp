@@ -16,5 +16,15 @@
         <名前>Test::Base</名前>
         <説明>データドリブンのテスト</説明>
     </要素>
+    <要素>
+        <ファイル>lib/Test/Base/Filter.pod</ファイル>
+        <名前>Test::Base::Filter</名前>
+        <説明>Test::Base のデフォルトのフィルタクラス</説明>
+    </要素>
+    <要素>
+        <ファイル>lib/Module/Install/TestBase.pod</ファイル>
+        <名前>Module::Install::TestBase</名前>
+        <説明>Module::Install での Test::Base サポート</説明>
+    </要素>
   </内容物>
 </説明>
