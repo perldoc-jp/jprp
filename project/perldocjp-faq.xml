@@ -45,7 +45,7 @@
 
 <part id="how_to_translate">
 <question>翻訳の流れはどのようになっていますか？</question>
-<answer><a href="http://www.freeml.com/message/perldocjp@freeml.com/0000504">翻訳の流れ</a>を参考にしてください。</answer>
+<answer><a href="http://www.freeml.com/perldocjp/0000504">翻訳の流れ</a>を参考にしてください。</answer>
 </part>
 
 <part id="charset">
@@ -55,7 +55,7 @@
 
 <part id="get_pod">
 <question>モジュールからの POD ファイルの抽出でどうやればよい？</question>
-<answer>「perldoc -u モジュール名」で抽出できるので、その結果をファイルに落とせばよいです。「perldoc -u モジュール名 > モジュール名.pod」などね。また、井上さんによる xpod.pl が <a href="http://www.freeml.com/message/perldocjp@freeml.com/0000160">Re: スクリプトから POD を取り出すプログラム</a>にあります。</answer>
+<answer>「perldoc -u モジュール名」で抽出できるので、その結果をファイルに落とせばよいです。「perldoc -u モジュール名 > モジュール名.pod」などね。また、井上さんによる xpod.pl が <a href="http://www.freeml.com/perldocjp/0000160">Re: スクリプトから POD を取り出すプログラム</a>にあります。</answer>
 </part>
 
 <part id="pod_rule">
@@ -80,17 +80,17 @@
 
 <part id="report_about_translation">
 <question>では、モジュール作成者に報告する際にはどのように言えばよいですか？</question>
-<answer><a href="http://www.freeml.com/message/perldocjp@freeml.com/0000485">Re: Kansai.pm - 3周年記念イベントまとめ</a>内に一例があります。参考にしてください。</answer>
+<answer><a href="http://www.freeml.com/perldocjp/0000485">Re: Kansai.pm - 3周年記念イベントまとめ</a>内に一例があります。参考にしてください。</answer>
 </part>
 
 <part id="ask_about_link">
 <question>モジュール作成者からリンク先聞かれたらどうすればよいですか？</question>
-<answer><a href="http://www.freeml.com/message/perldocjp@freeml.com/0000408">作者さんからリンク先って聞かれません？</a>からはじまるスレッドが参考になるでしょう。</answer>
+<answer><a href="http://www.freeml.com/perldocjp/0000408">作者さんからリンク先って聞かれません？</a>からはじまるスレッドが参考になるでしょう。</answer>
 </part>
 
 <part id="insert_translators_info">
 <question>翻訳したものに翻訳者の情報を入れる際にはどうすればいいですか？</question>
-<answer>自由にいれてもらってよいです。一例を挙げると翻訳した POD ファイルの最後尾にでも「head1」として入れておくという方法があります。<a href="http://www.freeml.com/message/perldocjp@freeml.com/0000335">翻訳した人の連絡先って、どうしましょ？</a>からはじまるスレッドも参考になることでしょう。</answer>
+<answer>自由にいれてもらってよいです。一例を挙げると翻訳した POD ファイルの最後尾にでも「head1」として入れておくという方法があります。<a href="http://www.freeml.com/perldocjp/0000335">翻訳した人の連絡先って、どうしましょ？</a>からはじまるスレッドも参考になることでしょう。</answer>
 </part>
 
 </faq>
