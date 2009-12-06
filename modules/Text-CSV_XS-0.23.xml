@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8">
 
 <説明>
-<パッケージ>Text-CVS_XS-0.23</パッケージ>
-<説明>Text-CVS_XS-0.23 podドキュメントの日本語訳</説明>
+<パッケージ>Text-CSV_XS-0.23</パッケージ>
+<説明>Text-CSV_XS-0.23 podドキュメントの日本語訳</説明>
 <言語>ja-jp</言語>
 
 
@@ -13,9 +13,11 @@
   <名前>Naruhito HORi</名前>
   <アドレス>anahori@users.sourceforge.jp</アドレス>
 </連絡先>
-
+<内容物>
 <要素>
-  <ファイル>Text-CVS_XS-0.23.pod</ファイル>
-  <名前>Text-CVS_XS-0.23</名前>
+  <ファイル>Text-CSV_XS-0.23.pod</ファイル>
+  <名前>Text-CSV_XS-0.23</名前>
   <説明>Text::CSV_XS - CSV形式の操作ルーチン</説明>
 </要素>
+</内容物>
+</説明>
