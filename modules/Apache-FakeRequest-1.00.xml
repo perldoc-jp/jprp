@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8">
+<?xml version="1.0" encoding="utf-8"?>
 
 <説明>
 <パッケージ>Apache-FakeRequest-1.00</パッケージ>
@@ -13,9 +13,11 @@
   <名前>Naruhito HORi</名前>
   <アドレス>anahori@users.sourceforge.jp</アドレス>
 </連絡先>
-
+<内容物>
 <要素>
   <ファイル>Apache-FakeRequest-1.00.pod</ファイル>
   <名前>Apache-FakeRequest-1.00</名前>
   <説明>Apache::FakeRequest - デバッグ目的のフェイクリクエストオブジェクト</説明>
 </要素>
+</内容物>
+</説明>

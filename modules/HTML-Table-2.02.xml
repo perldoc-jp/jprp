@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="euc-jp">
+<?xml version="1.0" encoding="euc-jp"?>
 
 <説明>
 <パッケージ>HTML::Table-2.02</パッケージ>
@@ -13,9 +13,11 @@
   <名前>Naruhito HORi</名前>
   <アドレス>anahori@users.sourceforge.jp</アドレス>
 </連絡先>
-
+<内容物>
 <要素>
   <ファイル>HTML-Table.pod</ファイル>
   <名前>HTML::Table</名前>
   <説明>HTMLテーブルを作成する</説明>
 </要素>
+</内容物>
+</説明>
