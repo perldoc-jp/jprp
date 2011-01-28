@@ -22,7 +22,7 @@
             <li><a href="event.html">イベント</a></li>
             <li class="current">FAQ</li>
             <li><a href="link.html">リンク</a></li>
-            <li class="sourceforge"><a href="http://sourceforge.jp/projects/perldocjp/">sourcefoge site</a></li>
+            <li class="sourceforge"><a href="http://sourceforge.jp/projects/perldocjp/">sourceforge site</a></li>
           </ul>
         </div>
 
