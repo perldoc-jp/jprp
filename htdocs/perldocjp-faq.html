@@ -126,11 +126,11 @@
                 Q. 
                 文字コードは何を使えばいいですか？</dt><dd><p>
                     A.
-                    EUC-JP を使ってください。</p></dd><dt id="get_pod">
+                    EUC-JP が使われているものも多いですが、UTF-8でも構いません。PODファイルの冒頭に「=encoding euc-jp」などと記述して、使用している文字コードを指定してください。適切に指定されていないと外部のツールやウェブサイトで適切に表示されない可能性があります。</p></dd><dt id="get_pod">
                 Q. 
                 モジュールからの POD ファイルの抽出でどうやればよい？</dt><dd><p>
                     A.
-                    「perldoc -u モジュール名」で抽出できるので、その結果をファイルに落とせばよいです。「perldoc -u モジュール名 &gt; モジュール名.pod」などね。また、井上さんによる xpod.pl が <a href="http://www.freeml.com/perldocjp/0000160">Re: スクリプトから POD を取り出すプログラム</a>にあります。</p></dd><dt id="pod_rule">
+                    POD は「perldoc -u モジュール名」で抽出できるので、その結果をファイルに落とせばよいです。「perldoc -u モジュール名 &gt; モジュール名.pod」などね。また、井上さんによる xpod.pl が <a href="http://www.freeml.com/perldocjp/0000160">Re: スクリプトから POD を取り出すプログラム</a>にあります。</p></dd><dt id="pod_rule">
                 Q. 
                 PODのアンカー、句読点、カッコなどについてプロジェクトの規約はありますか？</dt><dd><p>
                     A.
@@ -177,10 +177,11 @@ A. モジュールのライセンス次第です。Perl モジュールは Perl と同じライセンス（ Art
                 Q. 
                 翻訳された文章はどこで閲覧できますか？</dt><dd><p>
                     A.
-                    <a href="http://perldoc.jp/">perldoc.jp</a>を参照するか、<a href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/perldocjp/">SourceForge JP上のCVSリポジトリ</a>を御利用下さい。</p></dd><dt id="search_from_all_documents">
+                    <a href="http://perldoc.jp/">perldoc.jp</a>や<a href="http://new.perldoc.jp/">new.perldoc.jp</a>を参照するか、<a href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/perldocjp/">SourceForge JP上のCVSリポジトリ</a>を御利用下さい。</p></dd><dt id="search_from_all_documents">
                 Q. 
                 翻訳された文章の全文検索は行えますか？</dt><dd><p>
                     A.
-                    <a href="http://www.cpan.jp/">CPAN.jp</a>を御参照下さい。また、このサイトは、perldocjp以外に、翻訳された文章を既に公開している他サイトも検索対象としています。</p></dd></dl>
+                    2011年1月現在、全文検索の機能は提供されていません。Googleなどの検索エンジンでドメイン指定で <a href="http://perldoc.jp/">perldoc.jp</a> などを対象に検索してみてください。
+</p></dd></dl>
 <div class="footer"><address><a href="http://sourceforge.jp/projects/perldocjp/">Japanize Perl Resources Project</a></address></div>
 </body></html>
