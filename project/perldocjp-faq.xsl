@@ -16,7 +16,7 @@
 
         <div class="menu">
           <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li><a href="joinus.html">参加するには?</a>(<a href="joinus.html#ml">メーリングリスト</a>)</li>
             <li><a href="translation.html">翻訳の入手</a></li>
             <li><a href="event.html">イベント</a></li>
