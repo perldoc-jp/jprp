@@ -1,42 +1,37 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# strict pragma for Perl
+# This file is distributed under the same license as the Perl package.
+# IWAI, Masaharu <iwaim.sub@gmail.com>, 2003.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: strict pragma\n"
 "POT-Creation-Date: 2011-02-28 07:46+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2011-02-28 07:53+0900\n"
+"Last-Translator: IWAI, Masaharu <iwaim.sub@gmail.com>\n"
+"Language-Team: JPRP <perldocjp@freeml.com>\n"
+"Language: Japanese\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=euc-jp\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: =head1
 #: strict.pod:1
-#, fuzzy
 msgid "NAME"
 msgstr "NAME"
 
 #. type: textblock
 #: strict.pod:3
-#, fuzzy
 msgid "strict - Perl pragma to restrict unsafe constructs"
 msgstr "strict - 安全ではないコンストラクトを制限する Perl プラグマ"
 
 #. type: =head1
 #: strict.pod:5
-#, fuzzy
 msgid "SYNOPSIS"
 msgstr "SYNOPSIS"
 
 #. type: verbatim
 #: strict.pod:7
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "    use strict;\n"
 "\n"
@@ -46,7 +41,7 @@ msgstr ""
 
 #. type: verbatim
 #: strict.pod:9
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "    use strict \"vars\";\n"
 "    use strict \"refs\";\n"
@@ -60,7 +55,7 @@ msgstr ""
 
 #. type: verbatim
 #: strict.pod:13
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "    use strict;\n"
 "    no strict \"vars\";\n"
@@ -72,13 +67,11 @@ msgstr ""
 
 #. type: =head1
 #: strict.pod:16
-#, fuzzy
 msgid "DESCRIPTION"
 msgstr "DESCRIPTION"
 
 #. type: textblock
 #: strict.pod:18
-#, fuzzy
 msgid ""
 "If no import list is supplied, all possible restrictions are assumed.  (This "
 "is the safest mode to operate in, but is sometimes too strict for casual "
@@ -92,13 +85,11 @@ msgstr ""
 
 #. type: =item
 #: strict.pod:25
-#, fuzzy
 msgid "C<strict refs>"
 msgstr "C<strict refs>"
 
 #. type: textblock
 #: strict.pod:27
-#, fuzzy
 msgid ""
 "This generates a runtime error if you use symbolic references (see "
 "L<perlref>)."
@@ -108,7 +99,7 @@ msgstr ""
 
 #. type: verbatim
 #: strict.pod:30
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "    use strict 'refs';\n"
 "    $ref = \\$foo;\n"
@@ -130,13 +121,12 @@ msgstr ""
 
 #. type: textblock
 #: strict.pod:38
-#, fuzzy
 msgid "There is one exception to this rule:"
 msgstr "このルールには 1つの例外があります。"
 
 #. type: verbatim
 #: strict.pod:40
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "    $bar = \\&{'foo'};\n"
 "    &$bar;\n"
@@ -148,7 +138,6 @@ msgstr ""
 
 #. type: textblock
 #: strict.pod:43
-#, fuzzy
 msgid "is allowed so that C<goto &$AUTOLOAD> would not break under stricture."
 msgstr ""
 "上記のものは許容されます。だから C<goto &$AUTOLOAD> はこの制約下でも "
@@ -156,13 +145,11 @@ msgstr ""
 
 #. type: =item
 #: strict.pod:46
-#, fuzzy
 msgid "C<strict vars>"
 msgstr "C<strict vars>"
 
 #. type: textblock
 #: strict.pod:48
-#, fuzzy
 msgid ""
 "This generates a compile-time error if you access a variable that wasn't "
 "declared via C<our> or C<use vars>, localized via C<my()>, or wasn't fully "
@@ -178,7 +165,7 @@ msgstr ""
 
 #. type: verbatim
 #: strict.pod:55
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "    use strict 'vars';\n"
 "    $X::foo = 1;\t # ok, fully qualified\n"
@@ -194,7 +181,7 @@ msgstr ""
 
 #. type: verbatim
 #: strict.pod:60
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "    package Cinna;\n"
 "    our $bar;\t\t\t# Declares $bar in current package\n"
@@ -208,7 +195,6 @@ msgstr ""
 
 #. type: textblock
 #: strict.pod:64
-#, fuzzy
 msgid ""
 "The local() generated a compile-time error because you just touched a global "
 "name without fully qualifying it."
@@ -218,7 +204,6 @@ msgstr ""
 
 #. type: textblock
 #: strict.pod:67
-#, fuzzy
 msgid ""
 "Because of their special use by sort(), the variables $a and $b are exempted "
 "from this check."
@@ -228,13 +213,11 @@ msgstr ""
 
 #. type: =item
 #: strict.pod:70
-#, fuzzy
 msgid "C<strict subs>"
 msgstr "C<strict subs>"
 
 #. type: textblock
 #: strict.pod:72
-#, fuzzy
 msgid ""
 "This disables the poetry optimization, generating a compile-time error if "
 "you try to use a bareword identifier that's not a subroutine, unless it is a "
@@ -247,7 +230,7 @@ msgstr ""
 
 #. type: verbatim
 #: strict.pod:77
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "    use strict 'subs';\n"
 "    $SIG{PIPE} = Plumber;   \t# blows up\n"
@@ -263,19 +246,16 @@ msgstr ""
 
 #. type: textblock
 #: strict.pod:84
-#, fuzzy
 msgid "See L<perlmodlib/Pragmatic Modules>."
 msgstr "L<perlmodlib/Pragmatic Modules> を見てください。"
 
 #. type: =head1
 #: strict.pod:86
-#, fuzzy
 msgid "HISTORY"
 msgstr "HISTORY"
 
 #. type: textblock
 #: strict.pod:88
-#, fuzzy
 msgid ""
 "C<strict 'subs'>, with Perl 5.6.1, erroneously permitted to use an unquoted "
 "compound identifier (e.g. C<Foo::Bar>) as a hash key (before C<< => >> or "
@@ -288,7 +268,6 @@ msgstr ""
 
 #. type: textblock
 #: strict.pod:92
-#, fuzzy
 msgid ""
 "Starting with Perl 5.8.1 strict is strict about its restrictions: if unknown "
 "restrictions are used, the strict pragma will abort with"
@@ -299,7 +278,7 @@ msgstr ""
 
 #. type: verbatim
 #: strict.pod:95
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "    Unknown 'strict' tag(s) '...'\n"
 "\n"
