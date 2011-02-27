@@ -76,7 +76,7 @@ on the left hand side of the C<< => >> symbol.
 
     use strict 'subs';
     $SIG{PIPE} = Plumber;   	# blows up
-    $SIG{PIPE} = "Plumber"; 	# just fine: bareword in curlies always ok
+    $SIG{PIPE} = "Plumber"; 	# just fine: quoted string is always ok
     $SIG{PIPE} = \&Plumber; 	# preferred form
 
 =back
@@ -93,6 +93,10 @@ Starting with Perl 5.8.1 strict is strict about its restrictions:
 if unknown restrictions are used, the strict pragma will abort with
 
     Unknown 'strict' tag(s) '...'
+
+As of version 1.04 (Perl 5.10), strict verifies that it is used as
+"strict" to avoid the dreaded Strict trap on case insensitive file
+systems.
 
 
 =cut
