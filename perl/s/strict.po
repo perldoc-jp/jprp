@@ -1,12 +1,13 @@
 # strict pragma for Perl
 # This file is distributed under the same license as the Perl package.
-# IWAI, Masaharu <iwaim.sub@gmail.com>, 2003.
+# IWAI, Masaharu <iwaim.sub@gmail.com>, 2003, 2011.
+# argrath, 2009.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: strict pragma\n"
 "POT-Creation-Date: 2011-02-28 08:02+0900\n"
-"PO-Revision-Date: 2011-02-28 07:53+0900\n"
+"PO-Revision-Date: 2011-02-28 08:24+0900\n"
 "Last-Translator: IWAI, Masaharu <iwaim.sub@gmail.com>\n"
 "Language-Team: JPRP <perldocjp@freeml.com>\n"
 "Language: Japanese\n"
@@ -229,13 +230,7 @@ msgstr ""
 
 #. type: verbatim
 #: strict.pod:77
-#, fuzzy, no-wrap
-#| msgid ""
-#| "    use strict 'subs';\n"
-#| "    $SIG{PIPE} = Plumber;   \t# blows up\n"
-#| "    $SIG{PIPE} = \"Plumber\"; \t# just fine: bareword in curlies always ok\n"
-#| "    $SIG{PIPE} = \\&Plumber; \t# preferred form\n"
-#| "\n"
+#, no-wrap
 msgid ""
 "    use strict 'subs';\n"
 "    $SIG{PIPE} = Plumber;   \t# blows up\n"
@@ -245,7 +240,7 @@ msgid ""
 msgstr ""
 "    use strict 'subs';\n"
 "    $SIG{PIPE} = Plumber;   \t# ダメ\n"
-"    $SIG{PIPE} = \"Plumber\"; \t# 問題なし: 中括弧の中ならいつでも裸で ok\n"
+"    $SIG{PIPE} = \"Plumber\"; \t# 問題なし: クオートされた文字列なら常に ok\n"
 "    $SIG{PIPE} = \\&Plumber; \t# 好ましい方法\n"
 "\n"
 
@@ -296,4 +291,4 @@ msgstr ""
 msgid ""
 "As of version 1.04 (Perl 5.10), strict verifies that it is used as \"strict"
 "\" to avoid the dreaded Strict trap on case insensitive file systems."
-msgstr ""
+msgstr "バージョン 1.04 (Perl 5.10) から、大文字小文字の区別のない ファイルシステムでの恐ろしい \"Strict\" の罠 (Strict trap) を避けるために、strict は \"strict\" として使われているかを検証します。"
