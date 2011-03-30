@@ -3,40 +3,36 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: Email-Valid 0.182\n"
 "POT-Creation-Date: 2011-03-30 09:41+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2011-03-30 11:22+0900\n"
+"Last-Translator: IWAI, Masaharu <iwaim.sub@gmail.com>\n"
+"Language-Team: JPRP <perldocjp@freeml.com>\n"
+"Language: Japanese\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=euc-jp\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: =head1
 #: Valid.pod:1
-#, fuzzy
 msgid "NAME"
 msgstr "NAME"
 
 #. type: textblock
 #: Valid.pod:3
-#, fuzzy
 msgid "Email::Valid - Check validity of Internet email addresses"
 msgstr "Email::Valid - インターネット電子メールアドレスの正当性のチェック"
 
 #. type: =head1
 #: Valid.pod:5
-#, fuzzy
 msgid "SYNOPSIS"
 msgstr "SYNOPSIS"
 
 #. type: verbatim
 #: Valid.pod:7
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "  use Email::Valid;\n"
 "  print (Email::Valid->address('maurice@hevanet.com') ? 'yes' : 'no');\n"
@@ -48,13 +44,11 @@ msgstr ""
 
 #. type: =head1
 #: Valid.pod:10
-#, fuzzy
 msgid "DESCRIPTION"
 msgstr "DESCRIPTION"
 
 #. type: textblock
 #: Valid.pod:12
-#, fuzzy
 msgid ""
 "This module determines whether an email address is well-formed, and "
 "optionally, whether a mail host exists for the domain."
@@ -64,7 +58,6 @@ msgstr ""
 
 #. type: textblock
 #: Valid.pod:15
-#, fuzzy
 msgid ""
 "Please note that there is no way to determine whether an address is "
 "deliverable without attempting delivery (for details, see perlfaq 9)."
@@ -75,13 +68,11 @@ msgstr ""
 
 #. type: =head1
 #: Valid.pod:19
-#, fuzzy
 msgid "PREREQUISITES"
 msgstr "PREREQUISITES"
 
 #. type: textblock
 #: Valid.pod:21
-#, fuzzy
 msgid ""
 "This module requires perl 5.004 or later and the Mail::Address module.  "
 "Either the Net::DNS module or the nslookup utility is required for DNS "
@@ -95,13 +86,12 @@ msgstr ""
 
 #. type: =head1
 #: Valid.pod:26
-#, fuzzy
 msgid "METHODS"
 msgstr "METHODS"
 
 #. type: verbatim
 #: Valid.pod:28
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "  Every method which accepts an <ADDRESS> parameter may\n"
 "  be passed either a string or an instance of the Mail::Address\n"
@@ -115,13 +105,11 @@ msgstr ""
 
 #. type: =item
 #: Valid.pod:34
-#, fuzzy
 msgid "new ( [PARAMS] )"
 msgstr "new ( [PARAMS] )"
 
 #. type: textblock
 #: Valid.pod:36
-#, fuzzy
 msgid ""
 "This method is used to construct an Email::Valid object.  It accepts an "
 "optional list of named parameters to control the behavior of the object at "
@@ -133,7 +121,6 @@ msgstr ""
 
 #. type: textblock
 #: Valid.pod:40
-#, fuzzy
 msgid ""
 "The following named parameters are allowed.  See the individual methods "
 "below of details."
@@ -143,7 +130,7 @@ msgstr ""
 
 #. type: verbatim
 #: Valid.pod:43
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 " -mxcheck\n"
 " -tldcheck\n"
@@ -161,13 +148,11 @@ msgstr ""
 
 #. type: =item
 #: Valid.pod:49
-#, fuzzy
 msgid "mx ( <ADDRESS>|<DOMAIN> )"
 msgstr "mx ( <ADDRESS>|<DOMAIN> )"
 
 #. type: textblock
 #: Valid.pod:51
-#, fuzzy
 msgid ""
 "This method accepts an email address or domain name and determines whether a "
 "DNS record (A or MX) exists for it."
@@ -177,7 +162,6 @@ msgstr ""
 
 #. type: textblock
 #: Valid.pod:54
-#, fuzzy
 msgid "The method returns true if a record is found and undef if not."
 msgstr ""
 "このメソッドはレコードが見つかったならば true を、そうでない ならば undef "
@@ -185,7 +169,6 @@ msgstr ""
 
 #. type: textblock
 #: Valid.pod:56
-#, fuzzy
 msgid ""
 "Either the Net::DNS module or the nslookup utility is required for DNS "
 "checks.  Using Net::DNS is the preferred method since error handling is "
@@ -203,13 +186,11 @@ msgstr ""
 
 #. type: =item
 #: Valid.pod:63
-#, fuzzy
 msgid "tld ( <ADDRESS> )"
 msgstr "tld ( <ADDRESS> )"
 
 #. type: textblock
 #: Valid.pod:65
-#, fuzzy
 msgid ""
 "This method determines whether the domain part of an address is in a "
 "recognized top-level domain."
@@ -217,13 +198,11 @@ msgstr "このメソッドは、アドレスのドメインパートが承認されているトップレベルドメ
 
 #. type: =item
 #: Valid.pod:68
-#, fuzzy
 msgid "rfc822 ( <ADDRESS> )"
 msgstr "rfc822 ( <ADDRESS> )"
 
 #. type: textblock
 #: Valid.pod:70
-#, fuzzy
 msgid ""
 "This method determines whether an address conforms to the RFC822 "
 "specification (except for nested comments).  It returns true if it conforms "
@@ -235,13 +214,11 @@ msgstr ""
 
 #. type: =item
 #: Valid.pod:74
-#, fuzzy
 msgid "fudge ( <TRUE>|<FALSE> )"
 msgstr "fudge ( <TRUE>|<FALSE> )"
 
 #. type: textblock
 #: Valid.pod:76
-#, fuzzy
 msgid ""
 "Specifies whether calls to address() should attempt to correct common "
 "addressing errors.  Currently, this results in the removal of spaces in AOL "
@@ -255,13 +232,11 @@ msgstr ""
 
 #. type: =item
 #: Valid.pod:81
-#, fuzzy
 msgid "fqdn ( <TRUE>|<FALSE> )"
 msgstr "fqdn ( <TRUE>|<FALSE> )"
 
 #. type: textblock
 #: Valid.pod:83
-#, fuzzy
 msgid ""
 "Species whether addresses passed to address() must contain a fully qualified "
 "domain name (FQDN).  The default is true."
@@ -271,13 +246,11 @@ msgstr ""
 
 #. type: =item
 #: Valid.pod:86
-#, fuzzy
 msgid "local_rules ( <TRUE>|<FALSE> )"
 msgstr "local_rules ( <TRUE>|<FALSE> )"
 
 #. type: textblock
 #: Valid.pod:88
-#, fuzzy
 msgid ""
 "Specifies whether addresses passed to address() should be tested for domain "
 "specific restrictions.  Currently, this is limited to certain AOL "
@@ -289,13 +262,11 @@ msgstr ""
 
 #. type: =item
 #: Valid.pod:92
-#, fuzzy
 msgid "mxcheck ( <TRUE>|<FALSE> )"
 msgstr "mxcheck ( <TRUE>|<FALSE> )"
 
 #. type: textblock
 #: Valid.pod:94
-#, fuzzy
 msgid ""
 "Specifies whether addresses passed to address() should be checked for a "
 "valid DNS entry.  The default is false."
@@ -305,13 +276,11 @@ msgstr ""
 
 #. type: =item
 #: Valid.pod:97
-#, fuzzy
 msgid "tldcheck ( <TRUE>|<FALSE> )"
 msgstr "tldcheck ( <TRUE>|<FALSE> )"
 
 #. type: textblock
 #: Valid.pod:99
-#, fuzzy
 msgid ""
 "Specifies whether addresses passed to address() should be checked for a "
 "valid top level domains.  The default is false."
@@ -321,13 +290,11 @@ msgstr ""
 
 #. type: =item
 #: Valid.pod:102
-#, fuzzy
 msgid "address ( <ADDRESS> )"
 msgstr "address ( <ADDRESS> )"
 
 #. type: textblock
 #: Valid.pod:104
-#, fuzzy
 msgid ""
 "This is the primary method which determines whether an email address is "
 "valid.  It's behavior is modified by the values of mxcheck(), tldcheck(), "
@@ -347,13 +314,11 @@ msgstr ""
 
 #. type: =item
 #: Valid.pod:112
-#, fuzzy
 msgid "details ()"
 msgstr "details ()"
 
 #. type: textblock
 #: Valid.pod:114
-#, fuzzy
 msgid ""
 "If the last call to address() returned undef, you can call this method to "
 "determine why it failed.  Possible values are:"
@@ -363,7 +328,7 @@ msgstr ""
 
 #. type: verbatim
 #: Valid.pod:117
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 " rfc822\n"
 " local_rules\n"
@@ -381,7 +346,6 @@ msgstr ""
 
 #. type: textblock
 #: Valid.pod:123
-#, fuzzy
 msgid ""
 "If the class is not instantiated, you can get the same information from the "
 "global $Email::Valid::Details."
@@ -391,13 +355,11 @@ msgstr ""
 
 #. type: =head1
 #: Valid.pod:128
-#, fuzzy
 msgid "EXAMPLES"
 msgstr "EXAMPLES"
 
 #. type: textblock
 #: Valid.pod:130
-#, fuzzy
 msgid ""
 "Let's see if the address 'maurice@hevanet.com' conforms to the RFC822 "
 "specification:"
@@ -407,7 +369,7 @@ msgstr ""
 
 #. type: verbatim
 #: Valid.pod:133
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "  print (Email::Valid->address('maurice@hevanet.com') ? 'yes' : 'no');\n"
 "\n"
@@ -417,13 +379,12 @@ msgstr ""
 
 #. type: textblock
 #: Valid.pod:135
-#, fuzzy
 msgid "Additionally, let's make sure there's a mail host for it:"
 msgstr "更に、メールホストを確認してみましょう。"
 
 #. type: verbatim
 #: Valid.pod:137
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "  print (Email::Valid->address( -address => 'maurice@hevanet.com',\n"
 "                                -mxcheck => 1 ) ? 'yes' : 'no');\n"
@@ -435,13 +396,12 @@ msgstr ""
 
 #. type: textblock
 #: Valid.pod:140
-#, fuzzy
 msgid "Let's see an example of how the address may be modified:"
 msgstr "アドレスを修正する場合の例を見てみましょう。"
 
 #. type: verbatim
 #: Valid.pod:142
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "  $addr = Email::Valid->address('Alfred Neuman <Neuman @ foo.bar>');\n"
 "  print \"$addr\\n\"; # prints Neuman@foo.bar \n"
@@ -453,13 +413,12 @@ msgstr ""
 
 #. type: textblock
 #: Valid.pod:145
-#, fuzzy
 msgid "Now let's add the check for top level domains:"
 msgstr "トップレベルドメインのチェックを追加してみましょう。"
 
 #. type: verbatim
 #: Valid.pod:147
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "  $addr = Email::Valid->address( -address => 'Neuman@foo.bar',\n"
 "                                 -tldcheck => 1 );\n"
@@ -473,13 +432,12 @@ msgstr ""
 
 #. type: textblock
 #: Valid.pod:151
-#, fuzzy
 msgid "Need to determine why an address failed?"
 msgstr "何故アドレスが正しくないのかの理由が必要な場合は次のようになります。"
 
 #. type: verbatim
 #: Valid.pod:153
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "  unless(Email::Valid->address('maurice@hevanet')) {\n"
 "    print \"address failed $Email::Valid::Details check.\\n\";\n"
@@ -493,7 +451,6 @@ msgstr ""
 
 #. type: textblock
 #: Valid.pod:157
-#, fuzzy
 msgid ""
 "If an error is encountered, an exception is raised.  This is really only "
 "possible when performing DNS queries.  Trap any exceptions by wrapping the "
@@ -504,7 +461,7 @@ msgstr ""
 
 #. type: verbatim
 #: Valid.pod:161
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "  eval {\n"
 "    $addr = Email::Valid->address( -address => 'maurice@hevanet.com',\n"
@@ -522,13 +479,11 @@ msgstr ""
 
 #. type: =head1
 #: Valid.pod:167
-#, fuzzy
 msgid "BUGS"
 msgstr "BUGS"
 
 #. type: textblock
 #: Valid.pod:169
-#, fuzzy
 msgid ""
 "Email::Valid should work with Perl for Win32.  In my experience, however, "
 "Net::DNS queries seem to take an extremely long time when a record cannot be "
@@ -540,13 +495,11 @@ msgstr ""
 
 #. type: =head1
 #: Valid.pod:173
-#, fuzzy
 msgid "AUTHOR"
 msgstr "AUTHOR"
 
 #. type: textblock
 #: Valid.pod:175
-#, fuzzy
 msgid ""
 "Copyright 1998-2003, Maurice Aubrey E<lt>maurice@hevanet.comE<gt>.  All "
 "rights reserved."
@@ -556,7 +509,6 @@ msgstr ""
 
 #. type: textblock
 #: Valid.pod:178
-#, fuzzy
 msgid ""
 "This module is free software; you may redistribute it and/or modify it under "
 "the same terms as Perl itself."
@@ -566,13 +518,11 @@ msgstr ""
 
 #. type: =head1
 #: Valid.pod:181
-#, fuzzy
 msgid "CREDITS"
 msgstr "CREDITS"
 
 #. type: textblock
 #: Valid.pod:183
-#, fuzzy
 msgid ""
 "Significant portions of this module are based on the ckaddr program written "
 "by Tom Christiansen and the RFC822 address pattern developed by Jeffrey "
@@ -586,7 +536,6 @@ msgstr ""
 
 #. type: textblock
 #: Valid.pod:188
-#, fuzzy
 msgid ""
 "Thanks very much to the following people for their suggestions and bug "
 "fixes:"
@@ -594,7 +543,7 @@ msgstr "下に挙げる人々の示唆やバグ修正に大変感謝しています。"
 
 #. type: verbatim
 #: Valid.pod:191
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "  Otis Gospodnetic <otis@DOMINIS.com>\n"
 "  Kim Ryan <kimaryan@ozemail.com.au>\n"
@@ -616,12 +565,10 @@ msgstr ""
 
 #. type: =head1
 #: Valid.pod:199
-#, fuzzy
 msgid "SEE ALSO"
 msgstr "SEE ALSO"
 
 #. type: textblock
 #: Valid.pod:201
-#, fuzzy
 msgid "Mail::Address, Net::DNS, Net::Domain::TLD, perlfaq9"
 msgstr "Mail::Address, Net::DNS, Net::Domain::TLD, perlfaq9"
