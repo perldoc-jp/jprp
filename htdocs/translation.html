@@ -13,7 +13,7 @@
 <li><a HREF="event">イベント</a></li>
 <li><a HREF="perldocjp-faq">FAQ</a></li>
 <li><a HREF="link">リンク</a></li>
-<li class="sourceforge"><a HREF="http://sourceforge.jp/projects/perldocjp/">sourceforge site</a></li>
+<li class="osdn"><a HREF="https://ja.osdn.net/projects/perldocjp/">OSDN site</a></li>
 </ul>
 </div>
 
@@ -43,31 +43,31 @@ CVSからファイルを取得できます。ブラウザで閲覧も出来ます。
 </p>
 <h4>CVS リポジトリを閲覧</h4>
 <UL>
-<li><A HREF="http://sourceforge.jp/cvs/?group_id=136">CVSリポジトリ</A> (sourceforge.jp)
+<li><A HREF="https://osdn.net/cvs/?group_id=136">CVSリポジトリ</A> (OSDN.net)
 </UL>
 
 <h4>開発者用 CVS</h4>
 <p>まず、<A HREF="joinus">参加するには？</A>を読んで、参加してください。<BR><BR>
-Microsoft Windowsの方は、詳しくは<A HREF="http://sourceforge.jp/projects/perldocjp/document/cvs_wincvs/ja/3/cvs_wincvs.html">CVSの導入</A>をどうぞ。他の方も、参考になるかと思います。<br>
+Microsoft Windowsの方は、詳しくは<A HREF="https://ja.osdn.net/projects/perldocjp/document/cvs_wincvs/ja/3/cvs_wincvs.html">CVSの導入</A>をどうぞ。他の方も、参考になるかと思います。<br>
 大まかには、下記の手順です。
 </p>
 <ol>
 <li>ssh-keygen で、秘密鍵、公開鍵を作成する。
-<li><A HREF="http://www.sourceforge.jp">SourceForge.jp</A>で、<strong>ログイン</strong>-&gt;<strong>アカウント管理</strong>のシェルアカウント情報の<strong>鍵の編集</strong>で、公開鍵を追加する。
+<li><A HREF="https://ja.osdn.net">OSDN</A>で、<strong>ログイン</strong>-&gt;<strong>アカウント管理</strong>のシェルアカウント情報の<strong>鍵の編集</strong>で、公開鍵を追加する。
 <li>環境変数、<strong>CVS_RSH</strong> に <strong>ssh</strong> を設定する。
-<li>取得したいディレクトリ内で、<br>cvs -z3 -d:ext:developername@cvs.sourceforge.jp:/cvsroot/perldocjp co ./
+<li>取得したいディレクトリ内で、<br>cvs -z3 -d:ext:developername@cvs.osdn.net:/cvsroot/perldocjp co ./
 </ol>
 
 <h4>anonymous CVS</h4>
 <p>pserver というもので提供されています。</p>
 <p>まずはログインします。</p>
 
-<p><kbd>cvs -d:pserver:anonymous@cvs.sourceforge.jp:/cvsroot/perldocjp login</kbd></p>
+<p><kbd>cvs -d:pserver:anonymous@cvs.osdn.net:/cvsroot/perldocjp login</kbd></p>
 
 <p>password の入力が要求されても、何も入力せずエンターキーを押してください。</p>
 <p>次に、カレントディレクトリに、CVSに登録されたファイルを取得します。</p>
 
-<p><kbd>cvs -z3 -d:pserver:anonymous@cvs.sourceforge.jp:/cvsroot/perldocjp co ./</kbd></p>
+<p><kbd>cvs -z3 -d:pserver:anonymous@cvs.osdn.net:/cvsroot/perldocjp co ./</kbd></p>
 
 <p>以降は、そのディレクトリの中で、<br><br>
 
@@ -78,7 +78,7 @@ Microsoft Windowsの方は、詳しくは<A HREF="http://sourceforge.jp/projects/perldoc
 
 <div class="footer">
 <address>
-<a href="http://sourceforge.jp/projects/perldocjp/">Japanized Perl Resources Project</a></address>
+<a href="https://ja.osdn.net/projects/perldocjp/">Japanized Perl Resources Project</a></address>
 </div>
 
 

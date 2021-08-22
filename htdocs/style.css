@@ -98,7 +98,7 @@ blockquote {
   line-height:1.4em;
   }
 
-div.sourceforge{
+div.osdn{
   text-align:right;
   margin: 8px 0 0 0;
 }
@@ -121,7 +121,7 @@ div.menu ul li a {
   background-color:transparent;
 }
 
-div.menu ul li.sourceforge a {
+div.menu ul li.osdn a {
   background-color: #eef;
 }
 
