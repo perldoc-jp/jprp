@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="euc-jp" ?> 
+<翻訳物>
+  <パッケージ>
+          <名称>Parallel-ForkManager</名称>
+          <バージョン>Parallel-ForkManager-0.7.9</バージョン>
+  </パッケージ>
+  <説明>Parallel-ForkManager-0.7.9ドキュメントの日本語訳</説明> 
+  <言語>ja-jp</言語>
+        <日時>
+                <作成日時>2011-09-23 17:56:41</作成日時>
+                <更新日時>2011-09-23 17:56:41</更新日時>
+        </日時>
+        <翻訳グループ>
+                <翻訳者>
+                        <名前>小林 篤</名前>
+                        <連絡先>nekokak@users.sourceforge.jp</連絡先>
+                </翻訳者>
+                <翻訳者>
+                        <名前>Kato Atsushi</名前>
+                        <連絡先>ktat at cpan.org</連絡先>
+                </翻訳者>
+        </翻訳グループ>
+        <内容物>
+                <ファイル>
+                        <パス>lib/Parallel/ForkManager.pod</パス>
+                        <名称>Parallel::ForkManager</名称>
+                        <説明>簡単な並列処理によるforkマネージャー</説明>
+                </ファイル>
+
+        </内容物>
+</翻訳物>

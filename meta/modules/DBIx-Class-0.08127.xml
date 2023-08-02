@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="euc-jp" ?> 
+<翻訳物>
+  <パッケージ>
+          <名称>DBIx-Class</名称>
+          <バージョン>DBIx-Class-0.08127</バージョン>
+  </パッケージ>
+  <説明>DBIx-Class-0.08127 の日本語訳</説明>
+  <言語>ja-jp</言語>
+        <日時>
+                <作成日時>2011-04-28 23:03:10</作成日時>
+                <更新日時>2011-04-28 23:03:10</更新日時>
+        </日時>
+        <翻訳グループ>
+                <翻訳者>
+                        <名前>Kato Atsushi</名前>
+                        <連絡先>ktat at cpan.org</連絡先>
+                </翻訳者>
+        </翻訳グループ>
+        <内容物>
+<!--
+                <ファイル>
+                        <パス>lib/DBIx/Class.pod</パス>
+                        <名称>DBIx::Class</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/ResultSetManager.pod</パス>
+                        <名称>DBIx::Class::ResultSetManager</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/ResultSource.pod</パス>
+                        <名称>DBIx::Class::ResultSource</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/ResultSourceHandle.pod</パス>
+                        <名称>DBIx::Class::ResultSourceHandle</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/SQLMaker.pod</パス>
+                        <名称>DBIx::Class::SQLMaker</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/UTF8Columns.pod</パス>
+                        <名称>DBIx::Class::UTF8Columns</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/ResultSet.pod</パス>
+                        <名称>DBIx::Class::ResultSet</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Row.pod</パス>
+                        <名称>DBIx::Class::Row</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Exception.pod</パス>
+                        <名称>DBIx::Class::Exception</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Ordered.pod</パス>
+                        <名称>DBIx::Class::Ordered</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Manual.pod</パス>
+                        <名称>DBIx::Class::Manual</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/CDBICompat.pod</パス>
+                        <名称>DBIx::Class::CDBICompat</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage.pod</パス>
+                        <名称>DBIx::Class::Storage</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/PK.pod</パス>
+                        <名称>DBIx::Class::PK</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/AccessorGroup.pod</パス>
+                        <名称>DBIx::Class::AccessorGroup</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/FilterColumn.pod</パス>
+                        <名称>DBIx::Class::FilterColumn</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/DB.pod</パス>
+                        <名称>DBIx::Class::DB</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Relationship.pod</パス>
+                        <名称>DBIx::Class::Relationship</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Admin.pod</パス>
+                        <名称>DBIx::Class::Admin</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Core.pod</パス>
+                        <名称>DBIx::Class::Core</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/ResultSetColumn.pod</パス>
+                        <名称>DBIx::Class::ResultSetColumn</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/InflateColumn.pod</パス>
+                        <名称>DBIx::Class::InflateColumn</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Cursor.pod</パス>
+                        <名称>DBIx::Class::Cursor</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/StartupCheck.pod</パス>
+                        <名称>DBIx::Class::StartupCheck</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Schema.pod</パス>
+                        <名称>DBIx::Class::Schema</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/InflateColumn/DateTime.pod</パス>
+                        <名称>DBIx::Class::InflateColumn::DateTime</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/InflateColumn/File.pod</パス>
+                        <名称>DBIx::Class::InflateColumn::File</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/TxnScopeGuard.pod</パス>
+                        <名称>DBIx::Class::Storage::TxnScopeGuard</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/Statistics.pod</パス>
+                        <名称>DBIx::Class::Storage::Statistics</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/Pg.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::Pg</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/NoBindVars.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::NoBindVars</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/Sybase.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::Sybase</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/Replicated.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::Replicated</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/mysql.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::mysql</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/UniqueIdentifier.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::UniqueIdentifier</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/DB2.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::DB2</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/SQLite.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::SQLite</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/MultiColumnIn.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::MultiColumnIn</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/InterBase.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::InterBase</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/MSSQL.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::MSSQL</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/Oracle.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::Oracle</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/SQLAnywhere.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::SQLAnywhere</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/Informix.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::Informix</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/AutoCast.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::AutoCast</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/ODBC.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::ODBC</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/Cursor.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::Cursor</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/Oracle/WhereJoins.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::Oracle::WhereJoins</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/Oracle/Generic.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::Oracle::Generic</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/Replicated/Pool.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::Replicated::Pool</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/Replicated/Replicant.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::Replicated::Replicant</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/Replicated/Balancer.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::Replicated::Balancer</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/Replicated/WithDSN.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::Replicated::WithDSN</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/Replicated/Introduction.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::Replicated::Introduction</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/Replicated/Balancer/First.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::Replicated::Balancer::First</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/Replicated/Balancer/Random.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::Replicated::Balancer::Random</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/ODBC/Firebird.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::ODBC::Firebird</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/ODBC/DB2_400_SQL.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::ODBC::DB2_400_SQL</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/ODBC/SQL_Anywhere.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::ODBC::SQL_Anywhere</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/ODBC/Microsoft_SQL_Server.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::ODBC::Microsoft_SQL_Server</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/ODBC/ACCESS.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::ODBC::ACCESS</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/ADO/Microsoft_SQL_Server.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::ADO::Microsoft_SQL_Server</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/Sybase/MSSQL.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::Sybase::MSSQL</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/Sybase/ASE.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::Sybase::ASE</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/Sybase/Microsoft_SQL_Server.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::Sybase::Microsoft_SQL_Server</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/Sybase/ASE/NoBindVars.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::Sybase::ASE::NoBindVars</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Storage/DBI/Sybase/Microsoft_SQL_Server/NoBindVars.pod</パス>
+                        <名称>DBIx::Class::Storage::DBI::Sybase::Microsoft_SQL_Server::NoBindVars</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Serialize/Storable.pod</パス>
+                        <名称>DBIx::Class::Serialize::Storable</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/CDBICompat/SQLTransformer.pod</パス>
+                        <名称>DBIx::Class::CDBICompat::SQLTransformer</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/CDBICompat/AbstractSearch.pod</パス>
+                        <名称>DBIx::Class::CDBICompat::AbstractSearch</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/CDBICompat/ColumnsAsHash.pod</パス>
+                        <名称>DBIx::Class::CDBICompat::ColumnsAsHash</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/CDBICompat/NoObjectIndex.pod</パス>
+                        <名称>DBIx::Class::CDBICompat::NoObjectIndex</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/CDBICompat/Copy.pod</パス>
+                        <名称>DBIx::Class::CDBICompat::Copy</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/CDBICompat/Relationship.pod</パス>
+                        <名称>DBIx::Class::CDBICompat::Relationship</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/CDBICompat/Iterator.pod</パス>
+                        <名称>DBIx::Class::CDBICompat::Iterator</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/CDBICompat/Relationships.pod</パス>
+                        <名称>DBIx::Class::CDBICompat::Relationships</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Optional/Dependencies.pod</パス>
+                        <名称>DBIx::Class::Optional::Dependencies</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Schema/Versioned.pod</パス>
+                        <名称>DBIx::Class::Schema::Versioned</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Relationship/Base.pod</パス>
+                        <名称>DBIx::Class::Relationship::Base</名称>
+                        <説明></説明>
+                </ファイル>
+-->
+                <ファイル>
+                        <パス>lib/DBIx/Class/Manual/Component.pod</パス>
+                        <名称>DBIx::Class::Manual::Component</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Manual/Glossary.pod</パス>
+                        <名称>DBIx::Class::Manual::Glossary</名称>
+                        <説明></説明>
+                </ファイル>
+<!--
+                <ファイル>
+                        <パス>lib/DBIx/Class/Manual/Features.pod</パス>
+                        <名称>DBIx::Class::Manual::Features</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Manual/Reading.pod</パス>
+                        <名称>DBIx::Class::Manual::Reading</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Manual/FAQ.pod</パス>
+                        <名称>DBIx::Class::Manual::FAQ</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Manual/Example.pod</パス>
+                        <名称>DBIx::Class::Manual::Example</名称>
+                        <説明></説明>
+                </ファイル>
+-->
+                <ファイル>
+                        <パス>lib/DBIx/Class/Manual/Intro.pod</パス>
+                        <名称>DBIx::Class::Manual::Intro</名称>
+                        <説明></説明>
+                </ファイル>
+<!--
+                <ファイル>
+                        <パス>lib/DBIx/Class/Manual/Troubleshooting.pod</パス>
+                        <名称>DBIx::Class::Manual::Troubleshooting</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Manual/DocMap.pod</パス>
+                        <名称>DBIx::Class::Manual::DocMap</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/Manual/Joining.pod</パス>
+                        <名称>DBIx::Class::Manual::Joining</名称>
+                        <説明></説明>
+                </ファイル>
+-->
+                <ファイル>
+                        <パス>lib/DBIx/Class/Manual/Cookbook.pod</パス>
+                        <名称>DBIx::Class::Manual::Cookbook</名称>
+                        <説明></説明>
+                </ファイル>
+<!--
+                <ファイル>
+                        <パス>lib/DBIx/Class/ResultClass/HashRefInflator.pod</パス>
+                        <名称>DBIx::Class::ResultClass::HashRefInflator</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/SQLAHacks/OracleJoins.pod</パス>
+                        <名称>DBIx::Class::SQLAHacks::OracleJoins</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/PK/Auto.pod</パス>
+                        <名称>DBIx::Class::PK::Auto</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/PK/Auto/Pg.pod</パス>
+                        <名称>DBIx::Class::PK::Auto::Pg</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/PK/Auto/DB2.pod</パス>
+                        <名称>DBIx::Class::PK::Auto::DB2</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/PK/Auto/SQLite.pod</パス>
+                        <名称>DBIx::Class::PK::Auto::SQLite</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/PK/Auto/MSSQL.pod</パス>
+                        <名称>DBIx::Class::PK::Auto::MSSQL</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/PK/Auto/Oracle.pod</パス>
+                        <名称>DBIx::Class::PK::Auto::Oracle</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/PK/Auto/MySQL.pod</パス>
+                        <名称>DBIx::Class::PK::Auto::MySQL</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/ResultSourceProxy/Table.pod</パス>
+                        <名称>DBIx::Class::ResultSourceProxy::Table</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/SQLMaker/LimitDialects.pod</パス>
+                        <名称>DBIx::Class::SQLMaker::LimitDialects</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/SQLMaker/OracleJoins.pod</パス>
+                        <名称>DBIx::Class::SQLMaker::OracleJoins</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/ResultSource/View.pod</パス>
+                        <名称>DBIx::Class::ResultSource::View</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/DBIx/Class/ResultSource/Table.pod</パス>
+                        <名称>DBIx::Class::ResultSource::Table</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/SQL/Translator/Producer/DBIx/Class/File.pod</パス>
+                        <名称>SQL::Translator::Producer::DBIx::Class::File</名称>
+                        <説明></説明>
+                </ファイル>
+
+                <ファイル>
+                        <パス>lib/SQL/Translator/Parser/DBIx/Class.pod</パス>
+                        <名称>SQL::Translator::Parser::DBIx::Class</名称>
+                        <説明></説明>
+                </ファイル>
+-->
+        </内容物>
+</翻訳物>
